@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../images/backgroundsss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+   
+    
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+body{
+    background-image: url('../images/compass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    display: inline;
+}
+
+nav a{
+    padding:10px;
+}
