@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
+    <script src="https://kit.fontawesome.com/5568daea01.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Premium outdoor jackets from Rainy Days">
-    <title>Rainy Days | Home </title>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Rainy Days | Jackets </title>
   </head>
-  <body>
+  <body id="jackets">
     <header>
-      <a href=index.html><img src="images/logo.png" alt="Logo for Rainy Days"></a>
+      <a href=index.html><img src="images/logo.png" alt="Logo for Rainy Days" class="logo"></a>
+      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu">
       <nav>
         <ul>
           <li><a href="jackets.html">Jackets</a></li>
@@ -17,8 +21,48 @@
         </ul>
       </nav>
     </header>
-    
-    <footer> Copyright &copy;</footer>
+    <main>
+      <section class="jackets">
+        <h1>Jackets for men and women</h1> 
+        <div class="jackets-rain">
+          <img class="jack" src="images/jacket.jpg" alt="jacket"/>
+          <h2>Men</h2>
+          <p>Himalaya GORE-TEX Jacket</p>
+          <p>$349.00</p>
+          <a class="buy" href="buy.html">buy now</a>
+        </div>
+        <div class="jackets-rain">
+          <img class="jack" src="images/jacket.jpg" alt="jacket"/>
+          <h2>Men</h2>
+          <p>Himalaya GORE-TEX Jacket</p>
+          <p>$349.00</p>
+          <a class="buy" href="buy.html">buy now</a>
+        </div>
+        <div class="jackets-rain">
+          <img class="jack" src="images/jacket.jpg" alt="jacket"/>
+          <h2>Women</h2>
+          <p>Himalaya GORE-TEX Jacket</p>
+          <p>$349.00</p>
+          <a class="buy" href="buy.html">buy now</a>
+        </div>
+        <div class="jackets-rain">
+          <img class="jack" src="images/jacket.jpg" alt="jacket"/>
+          <h2>Women</h2>
+          <p>Himalaya GORE-TEX Jacket</p>
+          <p>$349.00</p>
+          <a class="buy" href="buy.html">buy now</a> 
+        </div>
+      </section>
+
+
+    </main>
+    <footer>
+      <ul>
+        <li><img src="images/insta.png" class="social"></li>
+        <li><img src="images/face.png" class="social"></li>
+        <li><img src="images/twitter.png" class="social"></li>
+      </ul>
+    </footer>
  
   </body>
 </html>
