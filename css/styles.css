@@ -4,8 +4,8 @@ html, body{
 }
 
 header {
-    /*background-image: url('../images/backgroundsss.jpg');*/
-    background-color:#E6E3E3;
+    background-image: url('../images/backgroundsss.jpg');
+    /*background-color:#E6E3E3;*/
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 120px;
