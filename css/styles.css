@@ -4,10 +4,11 @@ html, body{
 }
 
 header {
-    background-image: url('../images/backgroundsss.jpg');
+    /*background-image: url('../images/backgroundsss.jpg');*/
+    background-color:#E6E3E3;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 120px;
     color: #fff;
 }
 
@@ -32,7 +33,8 @@ nav  {
     width: 200px;
     height: 100px;
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 body#home{
@@ -55,7 +57,7 @@ nav a{
     padding: 10px; 
     font-size: 22px;
     text-decoration: none;
-    color:#fff;
+    color:#000;
     font-weight: lighter;
     
 }
