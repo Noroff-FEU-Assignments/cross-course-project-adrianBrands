@@ -21,7 +21,7 @@
   </head>
   <body id="buy">
     <header>
-      <a href=index.html><img src="images/logo.png" alt="Logo for Rainy Days" class="logo"></a>
+      <a href=index.html><img src="images/logo-new.png" alt="Logo for Rainy Days" class="logo"></a>
       <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -29,8 +29,16 @@
           <li><a href="jackets.html">Jackets</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
+         
         </ul>
       </nav>
+      <div class="icons">
+        <ul>
+        <li><a><img src="images/icons8-search-24.png"></a></li>
+        <li><a><img class="shopping" src="images/icons8-shopping-bag-32.png"><a class="shopping1"></a></a></li>
+       
+        </ul>
+      </div>
     </header>
     <main>
       <section class="content1">
@@ -41,7 +49,7 @@
           <h1>Men</h1>
           <h2>Himalaya GORE-TEX Jacket</h2>
           <p>$349.00</p>
-          <h3>select a size</h3>
+          <h3>select a size:</h3>
           <ul>
             <li>S</li>
             <li>M</li>
@@ -49,37 +57,40 @@
             <li>XL</li>
             <li>XXL</li>
           </ul>
-          <a class="cart" href="shoppingcart.html">ADD TO CART</a>
-        </div>
-        <div class="jackets1">
-          <img src="images/jacket.jpg" alt="jacket"/>
-          </div>
-          <div class="jackets2">
-          <h1>Women</h1>
-          <h2>Himalaya GORE-TEX Jacket</h2>
-          <p>$349.00</p>
-          <h3>select a size</h3>
-          <ul>
-            <li>S</li>
-            <li>M</li>
-            <li>L</li>
-            <li>XL</li>
-            <li>XXL</li>
-          </ul>
-          <a class="cart" href="shoppingcart.html">ADD TO CART</a>
+          
+          <a class="buy-now" href="shoppingcart.html">BUY NOW</a>
+          <a class="cart">ADD TO CART</a>
+          
+          
+          <p class="jacket-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus blanditiis corporis libero et illo tenetur perspiciatis dignissimos. 
+            Blanditiis iste, eveniet sint omnis aperiam temporibus dolores nisi totam, dolore possimus tempora.</p>
+          
+            
         </div>
 
+        <!--<div class="popup">-->
+          <dialog  class="content-pop">
+            <div class="added-products">
+              <h3>you have added 1 product</h3>
+              <a class="close-popup"><img src="images/close.png" alt="close popup"></a>
+            </div>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique at inventore atque debitis! Pariatur accusamus veniam impedit? Aut fuga deleniti iste dolor beatae id! Exercitationem nam minima dignissimos nemo modi!</p> 
+             <a class="popup-cart" href="shoppingcart.html">Go to shoppingcart</a>
+           </dialog>
+       <!--</div> --> 
 
+        
       </section>
+
+       
      
     </main>
     <footer>
-      <ul>
-        <li><img src="images/insta.png" class="social"></li>
-        <li><img src="images/face.png" class="social"></li>
-        <li><img src="images/twitter.png" class="social"></li>
-      </ul>
+      <img src="images/insta.png" class="social">
+      <img src="images/face.png" class="social">
+      <img src="images/twitter.png" class="social">
     </footer>
- 
+    
+    <script  src="js/buy.js"></script>
   </body>
 </html>

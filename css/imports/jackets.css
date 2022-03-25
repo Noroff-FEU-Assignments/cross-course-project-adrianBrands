@@ -1,0 +1,76 @@
+/* jackets page */ 
+body#jackets{
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: top;
+    font-family: 'Bahnschrift',sans-serif;
+    color: #707070;
+    overflow-x: hidden;
+}
+
+body#jackets h2,p{
+    font-weight: lighter;
+}
+
+ body#jackets p{
+     margin-bottom: 40px;
+     
+ }
+
+ .himalaya-jacket{
+     text-decoration: none;
+     color: #000;
+}
+
+.himalaya-jacket:hover {
+    border-bottom: 1px ridge black;
+}
+
+.jackets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1500px;
+    margin: 50px auto;
+    grid-gap: 80px;
+   
+    
+}
+
+.jackets h1{
+    grid-column: -1/1;
+    font-weight: normal;
+    font-size: 30px; 
+}
+
+.jackets img{
+    width: 100%;
+}
+
+.buy{
+    text-decoration: none;
+    color: #7C846E;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: normal;  
+    /*padding: 10px 15px;*/
+    
+    
+      
+}
+
+.buy:hover{
+    background-color: #bdbaba;
+    border-radius: 15px;
+    color: #fff; 
+    padding: 10px 15px;
+
+    
+    
+}
+
+
+
+
+

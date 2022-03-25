@@ -1,0 +1,56 @@
+/*about page*/
+body#about{
+    background-image: url('../../images/climbing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bahnschrift',sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+.about{
+    
+    font-size: 20px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    /*width: 100%;*/
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+.about-page{
+    max-width: 500px;
+    margin: 0;
+    background-color: rgba(189, 184, 184, 0.89);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    
+   
+    
+}
+
+.about h1{
+    font-weight: lighter;
+}
+
+
+.about a{
+    text-decoration: none;
+    color: #C51B06;
+}
+
+.about a:hover{
+    font-weight: bold;
+    border-bottom:1px solid #C51B06;
+}
+

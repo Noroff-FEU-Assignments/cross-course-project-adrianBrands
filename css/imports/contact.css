@@ -1,0 +1,143 @@
+/*contact page*/
+body#contact{
+    background-image: url('../../images/ski.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bahnschrift',sans-serif;
+    background-position:center;
+    
+    overflow-x: hidden;
+}
+
+.contact{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    
+    
+    
+    
+}
+
+.contact1{
+    
+    background-color: rgb(221, 221, 221, 0.7);
+    /*background-color: rgb(185, 185, 185, 0.6);*/
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 2rem;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+.contact h1{
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+
+.contact h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.contact h3{
+    font-weight: lighter;
+    font-size: 18px;
+    
+}
+
+.contact h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact h5{
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+
+/*.contact-us{
+    font-size: 20px;
+    font-weight: normal;
+    background: #7C846E;
+    width: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+   
+
+}*/
+
+
+
+.contact-form {
+    
+
+
+
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    padding: 5px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+input.invalid {
+   border: 1px solid red; 
+}
+
+.error-hint{
+    color: red;
+}
+
+.contact-button{
+    font-size: 15px;
+    font-weight: normal;
+    background: #7C846E;
+    
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    margin-top: 10px;
+    border-radius: 15px;
+    transition: all 1s;
+    
+
+
+}
+
+.contact-button:hover {
+    background-color: green;
+}
+
+.hidden{
+    display: none;
+}

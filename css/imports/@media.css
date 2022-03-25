@@ -1,0 +1,283 @@
+
+
+@media screen and (max-width: 700px) {
+
+    /*buy.css*/
+    .cart{
+    display: block;
+    width: 120px;
+    margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body#home {
+        background-image: url('../../images/backgroundmobile.jpg');
+        /* background-position: top; */
+        
+        
+    }
+
+   
+    .logo{
+        width: 115px;
+        height: 70px;
+    }
+
+    
+
+    header{
+        justify-content: space-between;
+    }
+
+    
+
+    .content{
+        color: #fff;
+    }
+
+    .content h1{
+        font-size: 30px;
+        
+        
+    }
+    
+    .content h2{
+        font-size: 25px;
+        margin-top: -25px;
+       
+        
+    }
+    
+    .cta{
+        
+        font-size: 20px;
+        border-radius: 25px;
+    }
+
+    .sale{
+        font-size: 15px;
+        
+    }
+
+    
+
+    #hamburger-menu{
+        display: none;
+        
+    }
+    
+    #hamburger-menu:checked ~ nav {
+        display: block;
+    }
+    
+    .hamburger-label{
+        
+        color: #000;
+        font-size: 1.5em;
+        display: block;
+        /*height: 13px;*/
+        
+        
+    }
+
+    nav{
+        display: none;
+        padding: 0px;
+        
+         
+        
+        
+        
+        
+        
+    }
+
+    /*jackets page*/
+    .jackets {
+        grid-gap: 10px ;
+        /*margin: 10px auto;*/
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+        
+        
+        }
+
+        /*buy page*/ 
+        .content1{
+           grid-template-columns: none;
+           
+           /*max-width: 100%;*/
+           
+        }
+
+        .cart{
+           display: inline;
+        }
+
+        .jackets2 {
+            
+            text-align: center;
+        }
+
+        
+
+        .jackets2 h2, h3, li{
+            font-size: 15px;
+        }
+
+        .jackets2 h1 {
+            font-size: 20px;
+            
+            
+        }
+
+        /*shoppingcart page*/ 
+        .content2{
+            grid-template-columns: repeat(1, 1fr);
+           
+        }
+
+        .jackets4{
+            max-width: none;
+        }
+        
+        
+        .jackets4 a {
+            font-size: 12px ;
+        }
+
+        .check{
+            padding: 5px 10px;
+            border-radius: 25px;
+        }  
+
+          .jackets4 img {
+              width: 18%;
+              
+          }
+            
+            .jackets3 img{
+             float: left;
+           
+            }
+
+        .jackets3{
+            margin: 10px;
+            
+        }
+
+        .jackets3 h1{
+            font-size: 20px;
+        }
+
+        .text{
+            float: right;
+        }
+
+        .text ul {
+            font-size: 20px;
+        }
+
+        .text h1{
+            font-size: 15px;
+        }
+
+        .text p {
+            font-size: 15px;
+        }
+
+        .jackets4{
+            margin: 10px;
+
+        }
+
+        
+
+        /* purchase page*/
+
+        .subscribe1 .input{
+            width: 70%;
+            border-radius: 25px;
+            
+        }
+
+        .purchase1 img {
+            max-width: 10%;
+            height: auto;
+            
+        }
+
+        .img img {
+            max-width: 5%;
+            position: relative;
+            right: 160px;
+            
+        }
+
+        .sub {
+            left: 320px;
+
+        }
+
+        .purchase a{
+            border-radius: 25px;
+        }
+
+        .sub{
+            border-radius: 25px;
+        }
+
+
+       /*about page*/
+       
+    
+
+    
+    
+    /*contact page*/
+
+    .contact{
+        gap: 1rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+    .content h1{
+        font-size: 25px;
+        
+    }
+    
+    .content h2{
+        font-size: 20px;
+        margin-top: -25px;
+       
+        
+    }
+    
+    .cta{
+        
+        font-size: 15px;
+        border-radius: 25px;
+    }
+
+    .sale{
+        font-size: 15px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+}

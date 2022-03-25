@@ -21,7 +21,7 @@
   </head>
   <body id="shoppingcart">
     <header>
-      <a href=index.html><img src="images/logo.png" alt="Logo for Rainy Days" class="logo"></a>
+      <a href=index.html><img src="images/logo-new.png" alt="Logo for Rainy Days" class="logo"></a>
       <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -29,35 +29,65 @@
           <li><a href="jackets.html">Jackets</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
+          
         </ul>
+        
       </nav>
+      <div class="icons">
+        <ul>
+        <li><a><img src="images/icons8-search-24.png"></a></li>
+        <li><a><img src="images/icons8-shopping-bag-32.png"></a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="content2">
+        
+        
         <div class="jackets3">
-          <h1>Shopping cart (1)</h1>
+          <h1 class="Shoppingcart-h1">Shopping cart (1)</h1>
           <img src="images/jacket.jpg" alt="jacket"/>
-         
-          </div>
           <div class="text">
-            <h1>Men's</h1>
-          <ul>
-            <li>Himalaya GORE-TEX Jacket</li>
-            <li>$349.00</li>
-          </ul>
+            <h2>Men's</h2>
+          
+            <p>Himalaya GORE-TEX Jacket</p>
+            <p>$349.00</p>
+          
           <p>color :</p>
           <p>size :</p>
          </div>
+         </div>
+          
          <div class="jackets4">
-           <h1>Payment</h1>
-           <h2>Cash On Delivery (COD)</h2>
-           <h2>Online payment</h2>
-           <p>Cardholder Name </p>
-           <p>Card Number</p>
-           <p>EXP Date </p>
-           <p>CVV</p>
-           <a class="check" href="purchase.html">CHECKOUT<img src="images/arrow.png"></a>
+           <h3>Payment</h3>
+           <div class="payment-info">
+            <div class="total">
+              <p>Shipping:</p>
+              <p class="costs">free</p>
+              <p>Total:</p>
+              <p class="costs">$349.00</p>
+            </div>
+           <p>Cash On Delivery (COD)</p>
+           <p>Online payment</p>
+           
+           <form action="form-success.php" method="POST">
+            <fieldset>
+              <label for="name">cardholder name</label>
+              <input type="text" name="name" id="name" class="form__input">
+              <label for="number">card number</label>
+              <input type="number" name="card" id="card" class="form__input">
+              <label for="number">EXP Date</label>
+              <input type="number" name="exp" id="exp" class="form__input">
+              <label for="number">CVV</label>
+              <input type="number" name="cvv" id="cvv" class="form__input">
+              <a class="checkout" href="purchase.html">CHECKOUT<img class="arrow" src="images/arrow.png"></a>
+            </fieldset>
+            
+            
+          </form>
            </div>
+           </div>
+           
         
         
         
@@ -67,11 +97,9 @@
      
     </main>
     <footer>
-      <ul>
-        <li><img src="images/insta.png" class="social"></li>
-        <li><img src="images/face.png" class="social"></li>
-        <li><img src="images/twitter.png" class="social"></li>
-      </ul>
+      <img src="images/insta.png" class="social">
+      <img src="images/face.png" class="social">
+      <img src="images/twitter.png" class="social">
     </footer>
  
   </body>

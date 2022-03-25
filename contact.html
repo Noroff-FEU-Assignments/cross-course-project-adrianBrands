@@ -21,7 +21,7 @@
   </head>
   <body id="contact">
     <header>
-      <a href=index.html><img src="images/logo.png" alt="Logo for Rainy Days" class="logo"></a>
+      <a href=index.html><img src="images/logo-new.png" alt="Logo for Rainy Days" class="logo"></a>
       <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -29,35 +29,58 @@
           <li><a href="jackets.html">Jackets</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
+          
         </ul>
       </nav>
+      <div class="icons">
+        <ul>
+        <li><a><img src="images/icons8-search-24.png"></a></li>
+        <li><a><img class="shopping" src="images/icons8-shopping-bag-32.png"><a class="shopping1"></a></a></li>
+        </ul>
+      </div>
     </header>
     <main>
      <section class="contact">
-       <div class="contact1">
-         <h1>Contact Us</h1>
+       <div class="contact1">       
          <div class="contact2">
-          <input type="text" class="input" placeholder="Full Name">
-          <input type="text" class="input" placeholder="E-Mail">
-          <input type="text" class="input" placeholder="Message">
-          <h6>Contact Us</h6>
-         </div>
-       </div>
-       <div class="based">
-       <h2>Contact</h2>
+          <h1>Contact Us</h1>
+          
+          <form class="contact-form">
+            <div class="form-group">
+              <label>Full name</label>
+              <input class="invalid" placeholder="Your name" />
+              <div class="error-hint hidden">Please write youre name</div>
+            </div>
+
+          
+         
+
+            <button class="contact-button">Submit</button>
+          </form>
+        </div>
+        
+        
+        
+        <div class="based"> 
+        <h2>Contact</h2>
         <h3>raindayd@rain.com</h3>
         <h4>Based in</h4>
         <h5>Norway</h5>
+     </div>  
       </div>
-     </section>
-    </main>
+    </section>
+
+  
+    
+  
+  </main>
     <footer>
-      <ul>
-        <li><img src="images/insta.png" class="social"></li>
-        <li><img src="images/face.png" class="social"></li>
-        <li><img src="images/twitter.png" class="social"></li>
-      </ul>
+      <img src="images/insta.png" class="social">
+      <img src="images/face.png" class="social">
+      <img src="images/twitter.png" class="social">
     </footer>
+
+    <script  src="js/contact.js"></script>
  
   </body>
 </html>
