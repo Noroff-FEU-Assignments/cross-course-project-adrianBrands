@@ -106,17 +106,20 @@ footer {
  
 }
 
-li {
+.nav-li {
   display: inline-block;
   
 }
- ul{
+ 
+ul{
    
    padding-left: 0;
  }
 
  
-
+li{
+  display: inline-block;
+}
 
 
 

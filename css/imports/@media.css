@@ -22,6 +22,7 @@
     .logo{
         width: 115px;
         height: 70px;
+        margin-left: 10px;
     }
 
     
@@ -77,6 +78,9 @@
         font-size: 1.5em;
         display: block;
         /*height: 13px;*/
+        cursor: pointer;
+        background-color: red;
+        margin-right: 10px;
         
         
     }
@@ -85,12 +89,17 @@
         display: none;
         padding: 0px;
         
-         
+    }
+
+    .nav-li {
+        display: list-item;
+        margin-bottom: 10px;
+        list-style-type: none;
         
-        
-        
-        
-        
+    }
+
+    nav a:hover {
+        border-bottom: none;
     }
 
     /*jackets page*/
