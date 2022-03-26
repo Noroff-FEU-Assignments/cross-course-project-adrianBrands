@@ -88,4 +88,5 @@ body#home {
 
 .sale:hover{
   color: #000;
+  transition: all 1s;
 }

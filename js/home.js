@@ -26,29 +26,34 @@ const searchIcon = document.querySelector(".search-icon");
 const inputSearch = document.querySelector(".input-search1");
 const hamburger = document.querySelector("#hamburger-menu"); 
 const shopping = document.querySelector(".shopping"); 
-const hamburgerLabel = document.querySelector(".hamburger-label");
-
-
+const hamburger1 = document.querySelector('label[name="hamburger1"]');
+const divClass = document.querySelector(".div");
 
 searchIcon.addEventListener("click", () => {
   inputSearch.innerHTML = `<input class="input-search2" type="text" placeholder="search...">`;
   searchIcon.innerHTML = `<img src="images/close.png">`;
   shopping.style.display="none";
-  hamburgerLabel.style.display="none";
-  
+  /*hamburger1.style.display="none";*/
+  divClass.style.display="none";
 
   searchIcon.addEventListener("click", () => {
     if (searchIcon.innerHTML === `<img src="images/close.png">`) {
       inputSearch.style.display = "none";
       shopping.style.display="unset";
-      hamburgerLabel.style.display="unset";
+     /* hamburger1.style.display="unset";*/
+     divClass.style.display="unset";
       searchIcon.innerHTML = `<img src="images/icons8-search-24.png">`;
-    } else {
+      /*hamburger1.style.backgroundColor="red";*/
+    } 
+    
+    else {
       inputSearch.innerHTML = `<input class="input-search2" type="text" placeholder="search...">`;
       searchIcon.innerHTML = `<img src="images/close.png">`;
       inputSearch.style.display = "unset";
       shopping.style.display="none";
-      hamburgerLabel.style.display="none";
+      /*hamburger1.style.display="none";*/
+      divClass.style.display="none";
+      
     }
   });
 });
@@ -75,11 +80,20 @@ const x = setInterval(function() {
 
 
 hamburger.addEventListener("click", () => {
+  hamburger1.innerHTML = `<img src="images/close.png">`;
+  
   const logo = document.querySelector(".logo"); 
   if (logo.style.display === "none"){
-    logo.style.display = "block"; 
+    logo.style.display = "block";
+    hamburger1.innerHTML = `<i class="fas fa-bars"></i>`;
+    
+    
+    
+     
   } else {
     logo.style.display = "none";
+    
+    
   }
   
   
