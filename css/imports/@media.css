@@ -10,7 +10,7 @@
 @media screen and (max-width: 600px) {
   body#home {
     background-image: url("../../images/backgroundmobile.jpg");
-    /* background-position: top; */
+    
   }
 
   .logo {
@@ -55,11 +55,8 @@
 
   .hamburger-label {
     color: #000;
-    /*  font-size: 1.5em;*/
     display: block;
-    /*height: 13px;*/
     cursor: pointer;
-
     margin-right: 15px;
   }
 
@@ -87,7 +84,6 @@
   /*jackets page*/
   .jackets {
     grid-gap: 10px;
-    /*margin: 10px auto;*/
     grid-template-columns: repeat(2, 1fr);
     margin: 20px;
   }
@@ -95,8 +91,6 @@
   /*buy page*/
   .content1 {
     grid-template-columns: none;
-
-    /*max-width: 100%;*/
   }
 
   .cart {
@@ -131,7 +125,7 @@
   /*shoppingcart page*/
   .payment-info label {
     font-size: 15px;
-}
+  }
 
   .content2 {
     grid-template-columns: repeat(1, 1fr);
@@ -188,7 +182,7 @@
 
   /* purchase page*/
 
-  .subscribe-form{
+  .subscribe-form {
     margin: 10px;
   }
 
@@ -202,14 +196,13 @@
     height: auto;
   }
 
-  .purchase1{
-   margin-top: 50px;
-
+  .purchase1 {
+    margin-top: 50px;
   }
 
-  .continue-shopping{
+  .continue-shopping {
     margin-top: 50px;
-}
+  }
 
   .img img {
     max-width: 5%;
@@ -246,8 +239,6 @@
     text-align: center;
     margin-bottom: 10px;
   }
-
-  
 }
 
 @media screen and (max-width: 400px) {

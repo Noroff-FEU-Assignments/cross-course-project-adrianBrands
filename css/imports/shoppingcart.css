@@ -17,9 +17,6 @@ body#shoppingcart{
     margin: 50px auto;
     grid-gap: 80px;
     color: #000;
-    
-    
-    
 }
 
 .Shoppingcart-h1{
@@ -28,23 +25,16 @@ body#shoppingcart{
     border-bottom:1px solid grey;
     font-weight: normal;
     padding-bottom: 20px;
-    
-    
 }
 
-.jackets3{
+.jackets3 {
     max-width:550px;
     border-bottom:1px solid grey;
-   
-   padding-bottom:-50;
-   /*height: 380px;*/
-    
-    
+    padding-bottom:-50;
 }
 
 .jackets3 img{
     width: 40%;
-    
     float: left;
 }
 
@@ -54,29 +44,19 @@ body#shoppingcart{
 }
 
 
-
 .text{
     float: right;
     margin-left: 20px;
-    
-    
 }
 
 .jackets4{
-    /*max-width: 400px;*/
-    
     max-width: 550px;
-    
-    
 }
 
 .payment-info{
     border-radius: 10px;
     padding: 5px;
     background-color: #E6E3E3;
-    
-    
-    
 }
 
 .jackets4 h3{
@@ -84,17 +64,12 @@ body#shoppingcart{
     font-size: 23px;
     font-weight: normal;
     padding-bottom: 20px;
-    
-    
-    
 }
 
 .jackets4 h2{
     font-weight: lighter;
     font-size: 20px;
 }
-
-
 
 .jackets4 a{
     font-size: 15px;
@@ -109,14 +84,9 @@ body#shoppingcart{
     justify-content:space-between;
     display: flex;
     width: 130px;
-    
-    
 }
 
-
-
 .checkout:hover{
-    
     transition: all 1s;
     background-color: #fa863d;
 }
@@ -126,16 +96,9 @@ body#shoppingcart{
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-
 .total p{
 margin-top: 5px;  
 font-size: 20px;
-
-    
-    
-   
-   
 }
 
 .costs{
@@ -151,11 +114,6 @@ font-size: 20px;
     border: 0; 
     margin: 10px 0;
     outline: none;
-    
-    
-  
-    
-    
 }
 
 fieldset{

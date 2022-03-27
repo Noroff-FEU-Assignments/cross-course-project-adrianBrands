@@ -23,9 +23,6 @@ function changeBackground() {
 window.onload = changeBackground;
 
 
-
-
-
 const sale = document.querySelector(".sale")
 const endDate = new Date("April 30, 2022 00:00").getTime();
 

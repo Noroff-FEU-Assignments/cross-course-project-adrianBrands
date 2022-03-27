@@ -1,34 +1,33 @@
-let addToCart = document.querySelector(".cart"); 
+let addToCart = document.querySelector(".cart");
 const displayshoppingIcon = document.querySelector(".shopping1");
 const hideIcon = document.querySelector(".shopping");
 const closePopUp = document.querySelector(".close-popup");
 const popUp = document.querySelector(".content-pop");
-const imageShoppingIcon = document.createElement('img');
-imageShoppingIcon.src = 'images/iconshopping1.png';
-
+const imageShoppingIcon = document.createElement("img");
+imageShoppingIcon.src = "images/iconshopping1.png";
 
 addToCart.addEventListener("click", () => {
-    console.log("has been clicked");
-    hideIcon.style.display = "none";
-    document.querySelector('.shopping1').appendChild(imageShoppingIcon);
-    popUp.showModal();
-})
+  console.log("has been clicked");
+  hideIcon.style.display = "none";
+  document.querySelector(".shopping1").appendChild(imageShoppingIcon);
+  popUp.showModal();
+});
 
 closePopUp.addEventListener("click", () => {
-    popUp.close();
-})
-    
+  popUp.close();
+});
 
-
-
-
-/*addToCart.onclick = function () {
+addToCart.onclick = function () {
     hideIcon.style.display = "none";
-   
     document.querySelector('.shopping1').appendChild(imageShoppingIcon);
 }
 
- function onload () {
+ 
+
+
+
+
+function onload () {
     
     let shoppinCartNumber = localStorage.getItem("clicked");
     if (shoppinCartNumber) {
@@ -44,4 +43,4 @@ closePopUp.addEventListener("click", () => {
 
 }
 
-onload ()*/
+onload ()

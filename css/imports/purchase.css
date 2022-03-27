@@ -42,13 +42,13 @@ body#purchase {
 }
 
 .purchase a:hover{
-    background-color: #7c846eb7;
-    color: #FFF;
-    transition: all 1s;
+  background-color: #7c846eb7;
+  color: #FFF;
+  transition: all 1s;
 }
 
 .continue-shopping{
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 
@@ -87,11 +87,8 @@ body#purchase {
 }
 
 .input {
-  /*background: url("images/mail1.png") no-repeat left;*/
   background: url("../../images/mail1.png") no-repeat scroll 10px 10px;
   background-size: 20px;
-  /*width: 100%;*/
-  /*padding: 7px 10px 5px 40px;*/
   outline: none;
   flex-grow: 2;
   border: none;
@@ -103,7 +100,6 @@ input:focus {
 }
 
 button {
-  /*border: 0px solid;*/
   border: none;
   color: #fff;
   background-color: #7c846e;

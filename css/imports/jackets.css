@@ -34,8 +34,6 @@ body#jackets h2,p{
     max-width: 1500px;
     margin: 50px auto;
     grid-gap: 80px;
-   
-    
 }
 
 .jackets h1{
@@ -56,29 +54,16 @@ body#jackets h2,p{
     font-weight: normal;  
     padding: 10px 15px;
     border-radius: 15px;
-    
-    
-    
-    
-      
 }
 
 .buy:hover{
     background-color: #bdbaba;
     border-radius: 15px;
     color: #fff; 
-   /* padding: 10px 15px;*/
     transition: all 1s;
-
-    
-    
 }
 
-
-
-
 .jackets-rain {
-    
     text-align: center;
 }
 

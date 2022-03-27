@@ -9,45 +9,29 @@ body#contact{
     flex-direction: column;
     font-family: 'Bahnschrift',sans-serif;
     background-position:center;
-    
     overflow-x: hidden;
 }
 
 .contact{
-    color: rgb(75, 75, 75);
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    
-    
-    
-    
 }
 
 .contact1{
-    
-    background-color: rgb(221, 221, 221, 0.7);
-    /*background-color: rgb(185, 185, 185, 0.6);*/
+    background-color: rgba(156, 156, 156, 0.7);
     display: flex;
     align-items: center;
     padding: 5px;
     gap: 2rem;
     border-radius: 5px;
-   
-    
-    
-    
-    
 }
 
 .contact h1{
     font-size: 30px;
     font-weight: normal;
-    
-    
-    
-    
 }
 
 .contact h2 {
@@ -71,27 +55,6 @@ body#contact{
     font-weight: lighter;
     
 }
-
-
-/*.contact-us{
-    font-size: 20px;
-    font-weight: normal;
-    background: #7C846E;
-    width: 100px;
-    padding: 10px 20px;
-    cursor: pointer;
-    text-decoration: none;
-    color:#fff;
-    display: block;
-    margin-top: 10px;
-    border-radius: 10px;
-   
-
-}*/
-
-
-
-
 
 .form-group{
     margin-bottom: 15px;
@@ -135,19 +98,15 @@ textarea.invalid {
 .contact-button{
     font-size: 15px;
     font-weight: normal;
-    color: #fff;
-    background-color: rgb(138, 136, 136);
+    color: #000;
+    background-color: #fff;
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
-    
-    
     margin-top: 10px;
     border-radius: 15px;
     transition: all 1s;
     
-
-
 }
 
 .contact-button:hover {

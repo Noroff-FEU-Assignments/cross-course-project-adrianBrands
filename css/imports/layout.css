@@ -4,8 +4,6 @@ body {
   padding: 0;
 }
 
-
-
 header {
   display: flex;
   justify-content: space-around;
@@ -14,14 +12,8 @@ header {
   min-height: 100px;
   color: #fff;
   background-color: rgba( 230, 227, 227, 0.8 );
-  /*background-color: rgba(255, 255, 255, 0.7);*/
+  
 }
-
-/*nav {
-  margin-right: 20px;
-}*/
-
-
 
 .hamburger-label {
   display: none;
@@ -34,7 +26,7 @@ header {
 .logo {
   width: 170px;
   height: 80px;
-  /*margin-left: 25px;*/
+  
   
 }
 
@@ -50,13 +42,10 @@ nav a {
 
 nav a:hover {
   border-bottom: 1px ridge black;
-  
 }
 
 .icons{
   cursor: pointer;
-  
-  
 }
 
 .input-search2{
@@ -65,23 +54,15 @@ nav a:hover {
  padding: 10px;
  background-color: #fff;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
- 
 }
-
-
 
 .icons{
   display: inline-flex;
-  /*justify-content:space-around;
-  align-items: center;*/
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   gap: 12px;
-  
   width: 290px;
- 
-  
 }
 
 
@@ -90,15 +71,12 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  /*background-color: #E6E3E3;*/
   margin-top: auto;
   height: 60px;
   background-color: rgba(230, 227, 227, 0.8);
   max-width: 100%;
   
 }
-
-
 
 .social {
   width: 30px;
@@ -109,24 +87,15 @@ footer {
 
 .nav-li {
   display: inline-block;
-  
 }
  
-ul{
-   
-   padding-left: 0;
- }
+ul {
+  padding-left: 0;
+}
 
- 
 li{
   display: inline-block;
 }
 
 
 
- /*<ul>
-          <li><input class="search-input" type="text"></li>
-          <li><a><img src="images/icons8-search-24.png"></a></li>
-          <li><a><img class="shopping" src="images/icons8-shopping-bag-32.png"><a class="shopping1"></a></a></li>
-          <li><label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label></li>
-          <ul></ul>*/

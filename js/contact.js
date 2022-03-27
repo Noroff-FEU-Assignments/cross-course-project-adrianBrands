@@ -5,10 +5,6 @@ const isEmailValid = (email) => {
 
 };
 
-
-
-
-
 const form = document.querySelector(".contact-form");
 const nameInput = document.querySelector('input[name="name"]');
 const thankYou = document.querySelector(".thank-you");

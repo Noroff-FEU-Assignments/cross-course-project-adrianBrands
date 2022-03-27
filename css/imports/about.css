@@ -13,18 +13,10 @@ body#about{
 
 
 .about{
-    
     font-size: 20px;
     display: flex;
-    /*flex-direction: column;*/
     justify-content: center;
-    /*width: 100%;*/
     align-items: center;
-    
-    
-    
-    
-    
 }
 
 .about-page{
@@ -34,15 +26,11 @@ body#about{
     border-radius: 10px;
     margin-top: 20px;
     padding: 5px;
-    
-   
-    
 }
 
 .about h1{
     font-weight: lighter;
 }
-
 
 .about a{
     text-decoration: none;
