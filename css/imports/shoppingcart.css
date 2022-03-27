@@ -115,8 +115,9 @@ body#shoppingcart{
 
 
 .checkout:hover{
-    width: auto;
     
+    transition: all 1s;
+    background-color: #fa863d;
 }
 
 .total {

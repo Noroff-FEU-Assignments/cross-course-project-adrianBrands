@@ -44,6 +44,7 @@ body#purchase {
 .purchase a:hover{
     background-color: #7c846eb7;
     color: #FFF;
+    transition: all 1s;
 }
 
 .continue-shopping{
@@ -116,4 +117,5 @@ button:hover{
     background-color: #7c846eb7;
     color: #FFF;
     cursor: pointer;
+    transition: all 1s;
 }
