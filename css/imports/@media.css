@@ -129,6 +129,10 @@
   }
 
   /*shoppingcart page*/
+  .payment-info label {
+    font-size: 15px;
+}
+
   .content2 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -197,6 +201,15 @@
     max-width: 10%;
     height: auto;
   }
+
+  .purchase1{
+   margin-top: 50px;
+
+  }
+
+  .continue-shopping{
+    margin-top: 50px;
+}
 
   .img img {
     max-width: 5%;

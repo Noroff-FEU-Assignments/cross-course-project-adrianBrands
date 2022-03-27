@@ -110,6 +110,7 @@ body#shoppingcart{
     display: flex;
     width: 130px;
     
+    
 }
 
 
@@ -130,6 +131,7 @@ body#shoppingcart{
 .total p{
 margin-top: 5px;  
 font-size: 20px;
+
     
     
    
@@ -149,6 +151,8 @@ font-size: 20px;
     border: 0; 
     margin: 10px 0;
     outline: none;
+    
+    
   
     
     
@@ -156,13 +160,11 @@ font-size: 20px;
 
 fieldset{
     border:0;
-
-}
-
-
-
-fieldset {
-   
     padding-left: 0;
 
 }
+
+
+
+
+
