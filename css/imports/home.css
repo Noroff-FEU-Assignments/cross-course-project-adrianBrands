@@ -16,6 +16,7 @@ body#home {
   color: #fff;
   position: relative;
   
+  
 }
 
 .content-wraper{
@@ -23,6 +24,10 @@ body#home {
   transform: translateX(-20%);
   left: 20%;
   top: 45px;
+  background-color: rgba(173, 171, 149, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  
   
 }
 
@@ -52,7 +57,7 @@ body#home {
   border-width: thin;
   font-weight: lighter;
   transition: all 1s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  
   
 }
 

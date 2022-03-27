@@ -22,53 +22,49 @@
   <body id="purchase">
     <header>
       <a href=index.html><img src="images/logo-new.png" alt="Logo for Rainy Days" class="logo"></a>
-      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
         <ul>
-          <li><a href="jackets.html">Jackets</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
+          <li class="nav-li"><a href="jackets.html">Jackets</a></li>
+          <li class="nav-li"><a href="contact.html">Contact</a></li>
+          <li class="nav-li"><a href="about.html">About</a></li>
         </ul>
       </nav>
       <div class="icons">
-        <ul>
-        <li><a><img src="images/icons8-search-24.png"></a></li>
-        <li><a><img src="images/icons8-shopping-bag-32.png"></a></li>
-        </ul>
+        <div class="input-search1"></div> 
+        <a class="search-icon"><img src="images/icons8-search-24.png"></a> 
+        <a><img class="shopping" src="images/icons8-shopping-bag-32.png"><a class="shopping1"></a></a> 
+        <div class="hamburger-nav"><label class="hamburger-label" name="hamburger-name"  for="hamburger-menu"><i class="fas fa-bars"></i></label></div>
       </div>
     </header>
     <main>
-    <section class="purchase">
-      <img src="images/chekmark.png" alt="logo of a checkmark">
-      <h1>THANK YOU FOR YOUR PURCHASE</h1>
-      <P>Your order number is: 004009700500</P>
-      <P>We`ll email you an order confirmation with details and tracking info </P>
-      <div class="continue-shopping">
-      <a href="jackets.html">Continue shopping</a>
-      </div>
+      <section class="purchase">
+        <img src="images/chekmark.png" alt="logo of a checkmark">
+        <h1>THANK YOU FOR YOUR PURCHASE</h1>
+        <p>Your order number is: 004009700500</p>
+        <p>We`ll email you an order confirmation with details and tracking info </p>
+        <div class="continue-shopping">
+          <a href="jackets.html">Continue shopping</a>
+        </div>
       </section>
       <section class="purchase1">
         <img src="images/mail.png" alt="logo of an envelope">
         <p>Subscribe to receive Important Product Updates and occasional discounts </p>
         <div class="subscribe">
-        <div class="subscribe1">
-          <form class="subscribe-form">
-          <input type="text" class="input" placeholder="customer@customer.com">
-          <button>subscribe</button>
-          </form>
-         
-          
+          <div class="subscribe1">
+            <form class="subscribe-form">
+              <input type="text" class="input" placeholder="customer@customer.com">
+              <button>subscribe</button>
+            </form>
+          </div>
         </div>
-        </div>
-        
-    </section>
+      </section>
     </main>
     <footer>
       <img src="images/insta.png" class="social">
       <img src="images/face.png" class="social">
       <img src="images/twitter.png" class="social">
     </footer>
- 
+    <script  src="js/layout.js" ></script>
   </body>
 </html>

@@ -22,85 +22,67 @@
   <body id="shoppingcart">
     <header>
       <a href=index.html><img src="images/logo-new.png" alt="Logo for Rainy Days" class="logo"></a>
-      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
         <ul>
-          <li><a href="jackets.html">Jackets</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-          
+          <li class="nav-li"><a href="jackets.html">Jackets</a></li>
+          <li class="nav-li"><a href="contact.html">Contact</a></li>
+          <li class="nav-li"><a href="about.html">About</a></li>
         </ul>
-        
       </nav>
       <div class="icons">
-        <ul>
-        <li><a><img src="images/icons8-search-24.png"></a></li>
-        <li><a><img src="images/icons8-shopping-bag-32.png"></a></li>
-        </ul>
+        <div class="input-search1"></div> 
+        <a class="search-icon"><img src="images/icons8-search-24.png"></a> 
+        <a><img class="shopping" src="images/icons8-shopping-bag-32.png"><a class="shopping1"></a></a> 
+        <div class="hamburger-nav"><label class="hamburger-label" name="hamburger-name"  for="hamburger-menu"><i class="fas fa-bars"></i></label></div>
       </div>
     </header>
     <main>
       <section class="content2">
-        
-        
         <div class="jackets3">
           <h1 class="Shoppingcart-h1">Shopping cart (1)</h1>
           <img src="images/jacket.jpg" alt="picture of jacket"/>
           <div class="text">
             <h2>Men's</h2>
-          
             <p>Himalaya GORE-TEX Jacket</p>
             <p>$349.00</p>
-          
-          <p>color :</p>
-          <p>size :</p>
-         </div>
-         </div>
-          
-         <div class="jackets4">
-           <h3>Payment</h3>
-           <div class="payment-info">
+            <p>color :</p>
+            <p>size :</p>
+          </div>
+        </div>
+        <div class="jackets4">
+          <h3>Payment</h3>
+          <div class="payment-info">
             <div class="total">
               <p>Shipping:</p>
               <p class="costs">free</p>
               <p>Total:</p>
               <p class="costs">$349.00</p>
             </div>
-           <p>Cash On Delivery (COD)</p>
-           <p>Online payment</p>
-           
-           <form action="form-success.php" method="POST">
-            <fieldset>
-              <label for="name">cardholder name</label>
-              <input type="text" name="name" id="name" class="form__input">
-              <label for="number">card number</label>
-              <input type="number" name="card" id="card" class="form__input">
-              <label for="number">EXP Date</label>
-              <input type="number" name="exp" id="exp" class="form__input">
-              <label for="number">CVV</label>
-              <input type="number" name="cvv" id="cvv" class="form__input">
-              <a class="checkout" href="purchase.html">CHECKOUT<img class="arrow" src="images/arrow.png"></a>
-            </fieldset>
-            
-            
-          </form>
-           </div>
-           </div>
-           
-        
-        
-        
-        
-        </section>
-       
-     
+            <p>Cash On Delivery (COD)</p>
+            <p>Online payment</p>
+            <form action="form-success.php" method="POST">
+              <fieldset>
+                <label for="name">cardholder name</label>
+                <input type="text" name="name" id="name" class="form__input">
+                <label for="number">card number</label>
+                <input type="number" name="card" id="card" class="form__input">
+                <label for="number">EXP Date</label>
+                <input type="number" name="exp" id="exp" class="form__input">
+                <label for="number">CVV</label>
+                <input type="number" name="cvv" id="cvv" class="form__input">
+                <a class="checkout" href="purchase.html">CHECKOUT<img class="arrow" src="images/arrow.png"></a>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <img src="images/insta.png" class="social">
       <img src="images/face.png" class="social">
       <img src="images/twitter.png" class="social">
     </footer>
- 
+    <script  src="js/layout.js" ></script>
   </body>
 </html>

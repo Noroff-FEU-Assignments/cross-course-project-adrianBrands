@@ -14,11 +14,10 @@ body#contact{
 }
 
 .contact{
-    
+    color: rgb(75, 75, 75);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
     margin-top: 5rem;
     
     
@@ -35,6 +34,7 @@ body#contact{
     padding: 5px;
     gap: 2rem;
     border-radius: 5px;
+   
     
     
     
@@ -135,13 +135,13 @@ textarea.invalid {
 .contact-button{
     font-size: 15px;
     font-weight: normal;
-    background: #7C846E;
-    
+    color: #fff;
+    background-color: rgb(138, 136, 136);
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
-    color:#fff;
-    display: block;
+    
+    
     margin-top: 10px;
     border-radius: 15px;
     transition: all 1s;
@@ -151,7 +151,8 @@ textarea.invalid {
 }
 
 .contact-button:hover {
-    background-color: green;
+    color: #fff;
+    background: #7C846E;
 }
 
 .hidden{

@@ -184,6 +184,10 @@
 
   /* purchase page*/
 
+  .subscribe-form{
+    margin: 10px;
+  }
+
   .subscribe1 .input {
     width: 70%;
     border-radius: 25px;
@@ -213,12 +217,24 @@
   }
 
   /*about page*/
+  .about {
+    margin: 10px;
+  }
 
   /*contact page*/
 
   .contact {
-    gap: 1rem;
+    margin-top: 2rem;
   }
+
+  .contact1 {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  
 }
 
 @media screen and (max-width: 400px) {
