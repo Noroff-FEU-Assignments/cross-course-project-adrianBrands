@@ -1,5 +1,3 @@
-
-console.log("hello");
 const getClass = document.querySelector(".jackets");
 const productsUrl = "https://mywebsite.no/wp-json/wc/store/products"; 
 
@@ -11,6 +9,7 @@ async function getProducts () {
         
         addProducts (results);
     } catch (error) {
+        console.log(error)
 
     }
     
