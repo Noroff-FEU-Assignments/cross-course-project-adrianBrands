@@ -40,7 +40,10 @@ function onload () {
     console.log(typeof shoppinCartNumber);
     addToCart = localStorage.setItem("clicked", 1);
 
-
 }
 
 onload ()
+
+
+
+
