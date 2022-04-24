@@ -24,7 +24,7 @@ window.onload = changeBackground;
 
 
 const sale = document.querySelector(".sale")
-const endDate = new Date("April 30, 2022 00:00").getTime();
+const endDate = new Date("May 30, 2022 00:00").getTime();
 
 const x = setInterval(function() {
 
