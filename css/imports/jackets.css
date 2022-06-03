@@ -10,22 +10,34 @@ body#jackets{
     overflow-x: hidden;
 }
 
-body#jackets h2,p{
+body#jackets h3,p{
     font-weight: lighter;
 }
 
- body#jackets p{
-     margin-bottom: 40px;
+body#jackets h3 {
+    font-size: 18px;
+}
+
+ /*body#jackets p{
+    margin-bottom: 30px;
+   color:red;
      
- }
+ }*/
 
  .himalaya-jacket{
      text-decoration: none;
-     color: #000;
+     color: rgba(0, 0, 0, 0.704);
+     font-size: 20px;
+     
+     
 }
 
 .himalaya-jacket:hover {
     border-bottom: 1px ridge black;
+    cursor: pointer;
+    
+    
+    
 }
 
 .jackets {
@@ -40,6 +52,7 @@ body#jackets h2,p{
     grid-column: -1/1;
     font-weight: normal;
     font-size: 30px; 
+    margin-left: 20px;
 }
 
 .jackets img{
@@ -54,6 +67,8 @@ body#jackets h2,p{
     font-weight: normal;  
     padding: 10px 15px;
     border-radius: 15px;
+    
+    
 }
 
 .buy:hover{
@@ -65,6 +80,7 @@ body#jackets h2,p{
 
 .jackets-rain {
     text-align: center;
+    
 }
 
 .jack:hover{
@@ -73,3 +89,14 @@ body#jackets h2,p{
     transition: all 1s;
     cursor: pointer;
 }
+
+.regular-price{
+    text-decoration: line-through;
+}
+
+.sale-price{
+    margin-top: -10px;
+    padding-bottom: 20px;
+    
+}
+

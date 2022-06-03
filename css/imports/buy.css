@@ -19,6 +19,7 @@ body#buy{
 
 .jackets2 h1{
     font-weight: lighter;
+    
 }
 
 .content1 img{
@@ -124,4 +125,16 @@ body#buy{
 .close-popup{
     background-color: #fff;
     cursor: pointer;
+}
+
+.details h2{
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.regular-price{
+    text-decoration: line-through;
+}
+
+.details h1{
+    font-size: 20px;
 }
