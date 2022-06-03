@@ -24,11 +24,10 @@ window.onload = changeBackground;
 
 
 const sale = document.querySelector(".sale")
-<<<<<<< HEAD
+
 const endDate = new Date("July 30, 2022 00:00").getTime();
-=======
-const endDate = new Date("May 30, 2022 00:00").getTime();
->>>>>>> 4dc7b423d86409235c32a585363d1943c4d1efda
+
+
 
 const x = setInterval(function() {
 
