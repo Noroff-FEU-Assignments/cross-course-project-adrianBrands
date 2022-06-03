@@ -1,6 +1,6 @@
 # Your project title
 
-![image](https://user-images.gith![screenshot_index](https://user-images.githubusercontent.com/40333282/171844152-018dc70d-18aa-4ab2-ba31-7447aa7a5a36.jpg)
+![image](https://user-images.gith![screenshot_index])
 
 
 A simple overview of the use/purpose of the project.
