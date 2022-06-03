@@ -1,6 +1,6 @@
 # Your project title
 
-![image](https://user-images.gith![screenshot_index])
+![image]([screenshot_index])
 
 
 A simple overview of the use/purpose of the project.
