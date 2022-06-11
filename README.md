@@ -4,7 +4,7 @@
 
 
 
-A simple overview of the use/purpose of the project.
+
 
 ## Description
 
