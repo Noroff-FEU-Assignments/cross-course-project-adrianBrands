@@ -1,4 +1,4 @@
-# Your project title
+# Cross course project
 
 ![screenshot_index](https://user-images.githubusercontent.com/40333282/171844564-0b969650-4dd9-48a9-894c-a8ee73f016b3.jpg)
 
@@ -20,8 +20,9 @@ You can add some bullet points if you'd like to:
 
 You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Getting Started
 
